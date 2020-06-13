@@ -48,6 +48,7 @@ export const cssClasses = {
       'mdc-data-table__pagination-rows-per-page-select',
   PAGINATION_ROWS_PER_PAGE_LABEL:
       'mdc-data-table__pagination-rows-per-page-label',
+  VISUALLY_HIDDEN_LABEL: 'mdc-data-table__visually-hidden-label',
 };
 
 /**
@@ -64,6 +65,7 @@ export const attributes = {
 export const dataAttributes = {
   COLUMN_ID: 'data-column-id',
   ROW_ID: 'data-row-id',
+  SORT_STATUS_LABEL: 'data-sort-status-label',
 };
 
 /**
@@ -80,6 +82,7 @@ export const selectors = {
   ROW_CHECKBOX: `.${cssClasses.ROW_CHECKBOX}`,
   ROW_SELECTED: `.${cssClasses.ROW_SELECTED}`,
   SORT_ICON_BUTTON: `.${cssClasses.SORT_ICON_BUTTON}`,
+  SORT_STATUS_LABEL: `[${dataAttributes.SORT_STATUS_LABEL}]`,
 };
 
 /**
